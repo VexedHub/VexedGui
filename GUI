@@ -179,7 +179,7 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
     usename.Text = game.Players.LocalPlayer.DisplayName
-    usename.TextColor3 = Color3.fromRGB(178, 37, 255)
+    usename.TextColor3 = Color3.fromRGB(151, 0, 233)
     usename.TextSize = 16.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
@@ -237,10 +237,10 @@ function Luxt1.CreateWindow(libName, logoId)
         tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
-        tabBtn.Font = Enum.Font.Gotham
+        tabBtn.Font = Enum.Font.GothamSemibold
         tabBtn.Text = tabText
-        tabBtn.TextColor3 = Color3.fromRGB(154, 220, 75)
-        tabBtn.TextSize = 14.000
+        tabBtn.TextColor3 = Color3.fromRGB(158, 0, 243)
+        tabBtn.TextSize = 15.000
         tabBtn.TextXAlignment = Enum.TextXAlignment.Left
 
         tabLogo.Name = "tabLogo"
@@ -310,10 +310,10 @@ function Luxt1.CreateWindow(libName, logoId)
                 end
             end
             game.TweenService:Create(tabLogo, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                ImageColor3 = Color3.fromRGB(153, 255, 238)
+                ImageColor3 = Color3.fromRGB(158, 0, 243)
             }):Play()
             game.TweenService:Create(tabBtn, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                TextColor3 = Color3.fromRGB(153, 255, 238)
+                TextColor3 = Color3.fromRGB(158, 0, 243)
             }):Play()
         end)
 
@@ -365,7 +365,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.Size = UDim2.new(0, 302, 0, 36)
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(47, 221, 0)
+            sectionName.TextColor3 = Color3.fromRGB(190, 71, 255)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -376,7 +376,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(47, 221, 0)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(190, 71, 255)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
             sectionExpannd.MouseButton1Click:Connect(function()
@@ -460,7 +460,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         debounce1 = true
                         TextButton:TweenSize(UDim2.new(0, 359,0, 30), "InOut", "Quint", 0.18, true)
                         game.TweenService:Create(TextButton, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
-                            BackgroundColor3 = Color3.fromRGB(101, 168, 157),
+                            BackgroundColor3 = Color3.fromRGB(191, 74, 255),
                             TextColor3 = Color3.fromRGB(0,0,0)
                         }):Play()
                         wait(1)
@@ -560,8 +560,8 @@ function Luxt1.CreateWindow(libName, logoId)
                                 on = not on
                                  callback(on) 
                                 if on then
-                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
-                                    checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(181, 44, 255)
+                                    checkBtn.ImageColor3 = Color3.fromRGB(181, 44, 255)
                                     checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
                                 else
