@@ -145,7 +145,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.Parent = sideHeading
     hubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubName.BackgroundTransparency = 1.000
-    hubName.Position = UDim2.new(0.290000081, 0, 0.0299999975, 0)
+    hubName.Position = UDim2.new(0.180000081, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.GothamBold
@@ -174,7 +174,7 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.Parent = sideHeading
     usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     usename.BackgroundTransparency = 1.000
-    usename.Position = UDim2.new(0.290000081, 0.400, 0.0700000152, 0)
+    usename.Position = UDim2.new(0.180000081, 0.400, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
