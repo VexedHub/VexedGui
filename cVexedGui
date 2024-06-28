@@ -156,7 +156,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.Position = UDim2.new(0.290000081, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
     hubName.ZIndex = 2
-    hubName.Font = Enum.Font.GothamSemibold
+    hubName.Font = Enum.Font.GothamBold
     hubName.Text = libName
     hubName.TextColor3 = Color3.fromRGB(134, 245, 0)
     hubName.TextSize = 16.000
