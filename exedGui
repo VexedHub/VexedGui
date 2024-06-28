@@ -159,7 +159,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.Font = Enum.Font.GothamBold
     hubName.Text = libName
     hubName.TextColor3 = Color3.fromRGB(134, 245, 0)
-    hubName.TextSize = 16.000
+    hubName.TextSize = 20.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -182,13 +182,13 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.Parent = sideHeading
     usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     usename.BackgroundTransparency = 1.000
-    usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
+    usename.Position = UDim2.new(0.290000081, 0.400, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
     usename.Text = game.Players.LocalPlayer.DisplayName
     usename.TextColor3 = Color3.fromRGB(123, 226, 0)
-    usename.TextSize = 14.000
+    usename.TextSize = 16.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
 
