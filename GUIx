@@ -150,7 +150,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.GothamBold
     hubName.Text = libName
-    hubName.TextColor3 = Color3.fromRGB(134, 245, 0)
+    hubName.TextColor3 = Color3.fromRGB(178, 37, 255)
     hubName.TextSize = 20.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
@@ -179,7 +179,7 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
     usename.Text = game.Players.LocalPlayer.DisplayName
-    usename.TextColor3 = Color3.fromRGB(123, 226, 0)
+    usename.TextColor3 = Color3.fromRGB(178, 37, 255)
     usename.TextSize = 16.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
@@ -209,8 +209,8 @@ function Luxt1.CreateWindow(libName, logoId)
     shadow.Size = UDim2.new(0, 609, 0, 530)
     shadow.ZIndex = 0
     shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
-    shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-    shadow.ImageTransparency = 0.200
+    shadow.ImageColor3 = Color3.fromRGB(124, 0, 191)
+    shadow.ImageTransparency = 0.300
 
     local TabHandling = {}
 
